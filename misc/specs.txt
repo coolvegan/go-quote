@@ -1,0 +1,24 @@
+Quote API
+
+im Ordner ./misc/ findet du author-quotes.Text
+Diese Datei enhält Zitate in der Sprache Englisch.
+Diese will ich für mich nutzen und mir eine API in GO
+erzeugen. 
+
+- Coding Style soll DRY, YAGNI und SOLID berücksichtigen.
+- So wenig externe Bibliotheken wie möglich. Im Idealfall 
+alles was die Standard Lib von Golang anbietet.
+- Wünschenswert wären ein API Key.
+- Wünschenswert wären später die Möglichkeit mittels JWT
+zu arbeiten.
+- Wünschenswert wäre ein Schalter zwischen API Key oder JWT
+
+Super wichtig: Unit Tests. Alles muss getestet werden.
+
+Sehr Wichtig. Wir brauchen Checkpoints. Nach jedem kleinen Meilenstein
+wo wir eine lauffähige Version haben, machen wir einen
+git add, push, commit. Wichtig, ohne Lauffähige Tests die grün
+sind, wird nichts in den neuen Checkpoint commited.
+
+Bei Unklarheiten meinerseits in der Datei ./misc/specs.txt 
+fragst du aktiv nach und erklärst mir dabei Problem!

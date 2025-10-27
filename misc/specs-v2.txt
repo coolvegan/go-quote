@@ -1,0 +1,20 @@
+Diese Datei ist die Erweiterung von specs.txt. 
+
+Die Regeln von specs.txt gelten weiterhin. Es gibt eine Ergänzung.
+Vor dem git add, wird die README.md aktualisert. Wichtig ist, der
+Entwickler soll wissen, wie er die API schnell testen kann. Daher 
+unbedingt curl commands für alle Fälle mitgeben.
+
+Neue Anforderung.
+- Random Quote, wir wollen über einen passenden API Name, 
+einen zufälligen Quote auswählen können. Es soll verhindert werden,
+dass an einem Tag ein Quote doppelt ausgewählt werden könnte. Das 
+Problem ist, wir müssen den Client irgendwie identifizieren oder eben
+halt nicht. Die Idee /random wäre normales Quote, wird ohne Prüfung
+/random?clientId=xyz merkt sich die ID und merkt sich für die ID in 
+einer Hashmap das gecallte Quote. An diesem Punkt weiß ich nicht
+wie das Design am besten funktioniert. Daher müssen wir hier extra 
+Kleinschrittig vorgehen. Und wirklich shorte Dev, Rest, Comment, Git push
+Zyklen fahren.
+
+Bei Fragen und Missverständnissen, bitte alles vorab klären.
