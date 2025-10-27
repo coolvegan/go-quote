@@ -1,0 +1,10 @@
+Jetzt ist das Refactoring wichtig.
+Hier müssen wir besonders kleinschrittig arbeiten, weil
+dein Context-Fenster relativ klein ist und du dich sonst 
+verzettelst. 
+
+daher finde sichere bereiche die du sauber umfaktorisieren 
+kannst. präsentiere mir deinen plan und frag mich, ob ich das
+gut finde.
+Wenn die tests durchlaufen, gelten die regeln aus spec 1 und v2.
+Ok?
