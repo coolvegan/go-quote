@@ -1,0 +1,14 @@
+[Unit]
+Description=Go Quote API Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/homego-quote
+ExecStart=/home/go-quote/go-quote
+Environment=API_KEY=dein_api_key
+Environment=QUOTE_FILE=/home/go-quote/misc/author-quote.txt
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
